@@ -121,6 +121,13 @@ function handleProcessStudent(event) {
     let clicked = event.target;
     if (clicked.classList.contains('delete')) {
         if (confirm('Ban chac chan muon xoa du lieu nay khong')) {
+            document.querySelector('#name').value = '';
+            document.querySelector('#email').value = '';
+            document.querySelector('#tel').value = '';
+            document.querySelector('#country').value = '';
+            btnSave.classList.remove('update');
+            btnSave.removeAttribute('data-id');
+            btnSave.innerText = 'Lưu Lại';
             let idDelete = clicked.getAttribute('data-id');
             let indexDelete;
             for (let i = 0; i < students.length; i++) {
