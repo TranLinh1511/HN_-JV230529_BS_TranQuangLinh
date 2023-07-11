@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container h1 {
+    padding: 30px;
+    text-align: center;
+}
+.student {
+    display: flex;
+}
+.student .profile {
+    width: 30%;
+    border: 1px solid rgb(196, 193, 193);
+    padding: 20px;
+}
+.student .profile h3 {
+    padding: 10px;
+}
+.student .profile .form {
+    padding: 13px;
+    align-items: center;
+}
+.student .profile .form label {
+    display: block;
+    padding-bottom: 10px;
+}
+.student .profile .form input {
+    width: 100%;
+    padding: 8px;
+}
+.student .profile .form-radio {
+    padding: 10px;
+    align-items: center;
+}
+.student .profile .form-radio label {
+    width: 25%;
+}
+.student .profile .form-radio .radio {
+    display: flex;
+}
+
+.student .profile .form-radio .radio .item {
+    align-items: center;
+    padding: 7px;
+}
+.student .profile .form-radio .radio label {
+    padding-left: 2px;
+}
+.profile .btnSave {
+    padding: 8px 25px;
+}
+.textCenter {
+    text-align: center;
+}
+.student .studentList {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid grey;
+}
+.student .studentList h3 {
+    text-align: center;
+}
+.student .studentList .searchStudent {
+    display: flex;
+}
+.studentList .search {
+    padding: 16px;
+}
+.studentList .search input {
+    padding: 6px;
+}
+.studentList .search button {
+    padding: 6px;
+}
+.table_list h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.table_list table {
+    border-collapse: collapse;
+    margin: 10px 0 20px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    border: 1px solid gray;
+}
+
+.styled-table {
+    width: 100%;
+}
+
+.styled-table thead tr {
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid rgb(214, 209, 209);
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.hide {
+    display: none;
+}
+.edit,
+.delete,
+.sort {
+    padding: 5px 7px;
+}
+.sort {
+    margin-left: 6px;
+}
